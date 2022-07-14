@@ -15,7 +15,7 @@ var arrayReservas = [];
 
 var comprobacion = prompt("¿Es usted un adulto?");
 if (comprobacion === "si") {
-    var cantidadA = prompt("Ingrese la cantidad de adultos");
+    var cantidadA = prompt("Ingrese la cantidad de adultos (mayores de 13 años)");
     var cantidadM = prompt("Ingrese la cantidad de menores de 13 años");
     var equiposA = prompt("Ingrese la cantidad de equipos de alta gama");
     var equiposM = prompt("Ingrese la cantidad de equipos de gama media");
